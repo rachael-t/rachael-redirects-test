@@ -4,5 +4,6 @@ exports.createPages = async ({ actions }) => {
   createRedirect({
     fromPath: `/test/`,
     toPath: `https://www.gatsbyjs.com/`,
+    statusCode: 200,
   })
 }
